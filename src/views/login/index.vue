@@ -27,7 +27,7 @@
                     @keyup.enter.native="handleLogin"
                     v-model="loginForm.password"
                     autoComplete="on"
-                    placeholder="请输入密码">
+                    placeholder="请输入密码!">
           <span slot="prefix">
             <svg-icon icon-class="password" class="color-main"></svg-icon>
           </span>
@@ -41,7 +41,7 @@
             登录
           </el-button>
           <el-button style="width: 45%" type="primary" @click.native.prevent="handleTry">
-            获取体验账号
+            获取体验
           </el-button>
         </el-form-item>
       </el-form>
