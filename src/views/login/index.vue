@@ -41,14 +41,14 @@
             登录
           </el-button>
           <el-button style="width: 45%" type="primary" @click.native.prevent="handleTry">
-            获取体验
+            获取体验ma
           </el-button>
         </el-form-item>
       </el-form>
     </el-card>
     <img :src="login_center_bg" class="login-center-layout">
     <el-dialog
-      title="公众号二维码"
+      title="公众号"
       :visible.sync="dialogVisible"
       :show-close="false"
       :center="true"
