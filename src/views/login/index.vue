@@ -27,7 +27,7 @@
                     @keyup.enter.native="handleLogin"
                     v-model="loginForm.password"
                     autoComplete="on"
-                    placeholder="请输入密码">
+                    placeholder="请输入密码!">
           <span slot="prefix">
             <svg-icon icon-class="password" class="color-main"></svg-icon>
           </span>
@@ -48,7 +48,7 @@
     </el-card>
     <img :src="login_center_bg" class="login-center-layout">
     <el-dialog
-      title="公众号二维码"
+      title="公众号"
       :visible.sync="dialogVisible"
       :show-close="false"
       :center="true"
